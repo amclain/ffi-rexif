@@ -1,7 +1,5 @@
 require 'ffi'
 
+require 'ffi-rexif/libexif'
+require 'ffi-rexif/data'
 require 'ffi-rexif/version'
-
-# A Ruby FFI wrapper for libexif.
-module LibExif
-end
