@@ -4,8 +4,8 @@ Gem::Specification.new do |s|
   s.name      = 'ffi-rexif'
   s.version   = LibExif::VERSION
   s.date      = Time.now.strftime '%Y-%m-%d'
-  s.summary   = 'A Ruby FFI wrapper for libexif.'
-  s.description = 'A Ruby FFI wrapper for libexif.'
+  s.summary   = 'A low-level Ruby FFI wrapper for libexif.'
+  s.description = 'A low-level Ruby FFI wrapper for libexif.'
   
   s.homepage  = 'https://github.com/amclain/ffi-rexif'
   s.authors   = ['Alex McLain']

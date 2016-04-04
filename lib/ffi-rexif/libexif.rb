@@ -1,4 +1,4 @@
-# A Ruby FFI wrapper for libexif.
+# A low-level Ruby FFI wrapper for libexif.
 # @see http://libexif.sourceforge.net/api/ libexif API documentation
 module LibExif
   extend FFI::Library
