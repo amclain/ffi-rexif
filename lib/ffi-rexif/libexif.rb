@@ -9,6 +9,7 @@ module LibExif
   # TODO: Search the common paths for the library.
   ffi_lib '/usr/lib/x86_64-linux-gnu/libexif.so.12'
 
+  # :nodoc:
   IFD = enum :ifd, [
     :EXIF_IFD_0, 0,
     :EXIF_IFD_1,
@@ -18,6 +19,7 @@ module LibExif
     :EXIF_IFD_COUNT,
   ]
 
+  # :nodoc:
   ExifTag = enum :exif_tag, [
     :EXIF_TAG_INTEROPERABILITY_INDEX, 0x0001,
     :EXIF_TAG_INTEROPERABILITY_VERSION, 0x0002,
